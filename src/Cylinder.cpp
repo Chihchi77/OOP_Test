@@ -19,7 +19,7 @@ double Cylinder :: Volume(){
 }
 
 double Cylinder :: Circumference(){
-    return pi * radius * 2.0;
+    return pi * radius * 2.00;
 }
 
 istream & operator>>(istream & in, Cylinder & cldr)
